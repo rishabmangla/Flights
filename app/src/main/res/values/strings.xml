@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flights</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_sort_price">Sort By Price</string>
+    <string name="action_sort_takeOff">Sort By Take Off</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

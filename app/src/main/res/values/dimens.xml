@@ -1,0 +1,8 @@
+<resources>
+        
+    <dimen name="flight">17dp</dimen>
+    <dimen name="normal">15dip</dimen>
+    <dimen name="small">13dip</dimen>
+    <dimen name="price">15dip</dimen>
+
+</resources>

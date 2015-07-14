@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_row_selector"
+    android:padding="8dp" >
+
+    <!-- Flight Title -->
+    <TextView
+        android:id="@+id/flight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="@dimen/flight"
+        android:textStyle="bold" />
+
+    <!-- Flight Class -->
+    <TextView
+        android:id="@+id/flight_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textSize="@dimen/flight"
+        android:textStyle="bold" />
+
+    <!-- takeOff -->
+    <TextView
+        android:id="@+id/takeOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flight"
+        android:layout_marginTop="10dip"
+        android:textSize="@dimen/normal" />
+
+    <!-- landing -->
+    <TextView
+        android:id="@+id/landing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/takeOff"
+        android:layout_toRightOf="@id/takeOff"
+        android:layout_marginLeft="5dip"
+        android:textSize="@dimen/normal" />
+
+
+    <!-- duration -->
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/takeOff"
+        android:layout_marginTop="10dip"
+        android:textSize="@dimen/normal"
+        android:textStyle="bold" />
+
+    <!-- Source -->
+    <TextView
+        android:id="@+id/src"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/duration"
+        android:layout_marginTop="10dip"
+        android:textSize="@dimen/normal"/>
+
+    <!-- Destination -->
+    <TextView
+        android:id="@+id/dest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/src"
+        android:layout_alignTop="@id/src"
+        android:layout_marginLeft="1dip"
+        android:textSize="@dimen/normal" />
+
+    <!-- Release Year -->
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/price"
+        android:textSize="@dimen/price"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
